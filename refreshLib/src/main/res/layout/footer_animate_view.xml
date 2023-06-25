@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll_foot_load"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+        <com.cunoraz.gifview.library.GifView
+            android:id="@+id/gif"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:visibility="visible"
+            android:tint="@color/rotate_color"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/load" />
+        <TextView
+            android:id="@+id/tv_head_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="正在加载..."
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_foot_no_more"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有更多啦~"
+            android:textColor="@color/normal_6a"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+</FrameLayout>

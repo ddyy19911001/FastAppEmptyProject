@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XSnow</string>
+    <string name="NETWORK_ERROR">网络错误，请检查网络设置</string>
+    <string name="PARSE_ERROR">解析对象错误</string>
+    <string name="SSL_ERROR">SSL证书错误</string>
+    <string name="TIMEOUT_ERROR">请求超时，请检查网络设置</string>
+    <string name="UNKNOWN_ERRO">网络异常，请稍后再试</string>
+</resources>

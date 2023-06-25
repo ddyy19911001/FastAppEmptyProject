@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DySuperBase</string>
+    <string name="exit_twice_tips">再次点击退出应用</string>
+    <string name="picker_str_sure">确定</string>
+    <string name="picker_str_error">取消</string>
+    <string name="system_msg">系统消息</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="no_read_write_permission">获取读取/写入存储相关权限失败</string>
+    <string name="no_read_write_permission_and_open">获取读取/写入存储相关权限失败,请手动开启对应权限</string>
+    <string name="no_location_permission_and_open">获取定位/位置信息相关权限失败,请手动开启对应权限</string>
+    <string name="no_location_permission">获取定位/位置信息相关权限失败</string>
+    <string name="no_camera_and_open">获取拍照/相机对应权限失败,请手动开启对应权限</string>
+    <string name="no_camera">获取拍照/相机对应权限失败</string>
+    <string name="down_erro">下载失败：</string>
+    <string name="unknown_erro">未知错误</string>
+    <string name="find_new_version">发现新版本</string>
+    <string name="updating_please_wait">正在更新，请耐心等待...</string>
+    <string name="update_background">后台下载</string>
+    <string name="i_konwn">我知道了</string>
+    <string name="loading">加载中...</string>
+    <string name="cj_verify">初级认证</string>
+    <string name="notification_error_ssl_cert_invalid">invalid ssl certificate</string>
+</resources>
