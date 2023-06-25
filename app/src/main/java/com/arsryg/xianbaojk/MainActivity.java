@@ -2,20 +2,12 @@ package com.arsryg.xianbaojk;
 
 import android.os.Bundle;
 
-import com.arsryg.xianbaojk.base.MyBaseActivity;
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.view.View;
-
-
+import com.arsryg.xianbaojk.base.MyBaseDataBindingActivity;
+import com.arsryg.xianbaojk.model.MainModel;
 import com.arsryg.xianbaojk.databinding.ActivityMainBinding;
 
-import android.view.Menu;
-import android.view.MenuItem;
 
-public class MainActivity extends MyBaseActivity{
+public class MainActivity extends MyBaseDataBindingActivity<MainModel,ActivityMainBinding> {
     @Override
     public int setLayout() {
         return R.layout.activity_main;
@@ -29,5 +21,10 @@ public class MainActivity extends MyBaseActivity{
     @Override
     public boolean setIsExitActivity() {
         return true;
+    }
+
+    @Override
+    protected MainModel createViewModel() {
+        return new MainModel(this,binding);
     }
 }
